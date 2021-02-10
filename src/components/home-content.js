@@ -71,7 +71,7 @@ const HomeContent = () => (
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.gohawaii.com/"
+            href="https://images.unsplash.com/photo-1496196614460-48988a57fccf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8dHVydGxlfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80"
           >
             <FontAwesomeIcon icon={faShip} className="mr-2" />
             Hawaii
