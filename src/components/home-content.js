@@ -12,7 +12,7 @@ const HomeContent = () => (
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://auth0.com/docs/connections"
+            href="https://www.alaska.gov/"
           >
             <FontAwesomeIcon icon={faShip} className="mr-2" />
             Alaska
@@ -31,7 +31,7 @@ const HomeContent = () => (
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://auth0.com/docs/multifactor-authentication"
+            href="https://www.caribbeantravel.com/"
           >
             <FontAwesomeIcon icon={faShip} className="mr-2" />
             The Caribbean
@@ -51,7 +51,7 @@ const HomeContent = () => (
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://auth0.com/docs/anomaly-detection"
+            href="https://www.visitmexico.com/en/"
           >
             <FontAwesomeIcon icon={faShip} className="mr-2" />
             Mexico
@@ -71,7 +71,7 @@ const HomeContent = () => (
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://auth0.com/docs/rules"
+            href="https://www.gohawaii.com/"
           >
             <FontAwesomeIcon icon={faShip} className="mr-2" />
             Hawaii
