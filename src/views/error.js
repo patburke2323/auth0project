@@ -2,10 +2,13 @@ import React from "react";
 
 
 const Error = () => (
-    <div>
-        You must verify your e-mail address before continuing.
+    <div className="isaError">
+      <i class="fa fa-times-circle"></i>
+        Please check your email. You must verify your e-mail address before continuing. 
     </div>
   );
+
+  
   
 
 export default Error;

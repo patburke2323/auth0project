@@ -30,6 +30,13 @@
   right: 0;
 }
 
+.spin {
+  left: 50%;
+  top: 30%;
+  z-index: 1000;
+  position: absolute;
+}
+
 .result-block-container .result-block {
   opacity: 1;
 }
@@ -53,4 +60,9 @@ input {
   position: relative;
   top: -3px;
   *overflow: hidden;
+}
+
+.isaError {
+  color: #D8000C;
+  background-color: #FFD2D2;
 }
