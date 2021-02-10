@@ -8,7 +8,14 @@ const Auth0ProviderWithHistory = ({ children }) => {
   const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
   const audience = process.env.REACT_APP_AUTH0_AUDIENCE;
 
+  if (window.location && window.location.search && window.location.search.includes("?error")) {
+    // Router Redirect to a route unrecognized intentionally 
+    history.push("/error")
+  }
+
+
   const onRedirectCallback = (appState) => {
+    console.log('APP STATE:', appState)
     history.push(appState?.returnTo || window.location.pathname);
   };
 

@@ -21,9 +21,9 @@ const App = () => {
       <div className="container flex-grow-1">
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/error" component={Error} />
           <ProtectedRoute path="/profile" component={Profile} />
           <ProtectedRoute path="/external-api" component={ExternalApi} />
+          <Route component={Error} />
         </Switch>
       </div>
       <Footer />
